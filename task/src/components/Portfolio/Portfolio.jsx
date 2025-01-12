@@ -4,12 +4,12 @@ import Modal from "../Modals/Modal";
 
 const Portfolio = () => {
   const imgs = [
-    { id: 1, srs: "src/assets/logCabin.png", title: "LOG CABIN" },
-    { id: 2, srs: "src/assets/tastyCake.png", title: "TASTY CAKE" },
-    { id: 3, srs: "src/assets/circusTent.png", title: "CIRCUS TENT" },
-    { id: 4, srs: "src/assets/controler.png", title: "CONTROLLER" },
-    { id: 5, srs: "src/assets/lockedSafe.png", title: "LOCKED SAFE" },
-    { id: 6, srs: "src/assets/submarine.png", title: "SUBMARINE" },
+    { id: 1, srs: "../../assets/logCabin.png", title: "LOG CABIN" },
+    { id: 2, srs: "../../assets/tastyCake.png", title: "TASTY CAKE" },
+    { id: 3, srs: "../../assets/circusTent.png", title: "CIRCUS TENT" },
+    { id: 4, srs: "../../assets/controler.png", title: "CONTROLLER" },
+    { id: 5, srs: "../../assets/lockedSafe.png", title: "LOCKED SAFE" },
+    { id: 6, srs: "../../assets/submarine.png", title: "SUBMARINE" },
   ];
   return (
     <>
