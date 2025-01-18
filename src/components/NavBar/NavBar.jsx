@@ -24,7 +24,7 @@ const NavBar = () => {
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
                 <li className="nav-item">
                   <a
-                    className="nav-link active text-white activeButton "
+                    className="nav-link active text-white activeButton -mr-2"
                     aria-current="page"
                     href="#"
                   >
