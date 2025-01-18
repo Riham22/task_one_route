@@ -1,15 +1,20 @@
 import DarkStar from "../DarkStar";
 import { FaPlus } from "react-icons/fa";
 import Modal from "../Modals/Modal";
-
+import { logCabin } from "../../assets/logCabin.png";
+import { tastyCake } from "../../assets/tastyCake.png";
+import { circusTent } from "../../assets/circusTent.png";
+import { controller } from "../../assets/controler.png";
+import { lockedSafe } from "../../assets/lockedSafe.png";
+import { submarine } from "../../assets/submarine.png";
 const Portfolio = () => {
   const imgs = [
-    { id: 1, srs: "../../assets/logCabin.png", title: "LOG CABIN" },
-    { id: 2, srs: "../../assets/tastyCake.png", title: "TASTY CAKE" },
-    { id: 3, srs: "../../assets/circusTent.png", title: "CIRCUS TENT" },
-    { id: 4, srs: "../../assets/controler.png", title: "CONTROLLER" },
-    { id: 5, srs: "../../assets/lockedSafe.png", title: "LOCKED SAFE" },
-    { id: 6, srs: "../../assets/submarine.png", title: "SUBMARINE" },
+    { id: 1, srs: logCabin, title: "LOG CABIN" },
+    { id: 2, srs: tastyCake, title: "TASTY CAKE" },
+    { id: 3, srs: circusTent, title: "CIRCUS TENT" },
+    { id: 4, srs: controller, title: "CONTROLLER" },
+    { id: 5, srs: lockedSafe, title: "LOCKED SAFE" },
+    { id: 6, srs: submarine, title: "SUBMARINE" },
   ];
   return (
     <>

@@ -1,3 +1,4 @@
+import { star } from "../assets/star-fill.svg";
 const Star = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const Star = () => {
           }}
         />
         <i className="bi bi-star-fill m-4">
-          <img src="src/assets/star-fill.svg" />
+          <img src={star} />
         </i>
         <hr
           style={{
