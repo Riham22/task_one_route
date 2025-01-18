@@ -1,12 +1,12 @@
 import DarkStar from "../DarkStar";
 import { FaPlus } from "react-icons/fa";
 import Modal from "../Modals/Modal";
-import { logCabin } from "../../assets/logCabin.png";
-import { tastyCake } from "../../assets/tastyCake.png";
-import { circusTent } from "../../assets/circusTent.png";
-import { controller } from "../../assets/controler.png";
-import { lockedSafe } from "../../assets/lockedSafe.png";
-import { submarine } from "../../assets/submarine.png";
+import logCabin from "../../assets/logCabin.png";
+import tastyCake from "../../assets/tastyCake.png";
+import circusTent from "../../assets/circusTent.png";
+import controller from "../../assets/controler.png";
+import lockedSafe from "../../assets/lockedSafe.png";
+import submarine from "../../assets/submarine.png";
 const Portfolio = () => {
   const imgs = [
     { id: 1, srs: logCabin, title: "LOG CABIN" },

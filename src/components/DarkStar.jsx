@@ -1,4 +1,4 @@
-import { darkStar } from "../assets/star-dark.svg";
+import darkStar from "../assets/star-dark.svg";
 
 const DarkStar = () => {
   return (
